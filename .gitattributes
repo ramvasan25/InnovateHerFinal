@@ -1,0 +1,12 @@
+# Normalize line endings to LF in the repo (standard for Node/TS projects).
+# This prevents "LF will be replaced by CRLF" warnings and keeps diffs consistent.
+* text=auto eol=lf
+
+# Explicitly treat these as text (in case auto-detection misses them).
+*.ts text eol=lf
+*.tsx text eol=lf
+*.js text eol=lf
+*.jsx text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+*.css text eol=lf

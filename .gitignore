@@ -1,0 +1,28 @@
+# dependencies
+node_modules/
+.venv/
+
+# next build
+.next/
+out/
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# env
+.env
+.env.local
+.env*.local
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+nul
+
+# TypeScript build cache
+tsconfig.tsbuildinfo
+*.tsbuildinfo
